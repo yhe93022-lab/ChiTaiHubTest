@@ -6,7 +6,7 @@ local v15 = v14:CreateWindow({
     Theme = "Dark",--màu
     Acrylic = false,
     Size = UDim2.fromOffset(500, 320),
-    MinimizeKey = Enum.KeyCode.End
+    MinimizeKey = Enum.KeyCode.LeftAlt
 });
 local v16 = {
     Home = v15:AddTab({
@@ -9026,4 +9026,5 @@ spawn(function()
         end
     end
 end);
+
 
